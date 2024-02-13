@@ -1,0 +1,65 @@
+/* V_day24.css */
+
+/* CSS styles for the header */
+header {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* CSS styles for the main content */
+main {
+    padding: 20px;
+	font-size: 20px;
+    text-align: center;
+}
+
+/* CSS styles for the response buttons */
+#response-buttons {
+    margin-top: 20px;
+}
+
+#yes-button, #no-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#yes-button:hover, #no-button:hover {
+    background-color: darkred;
+}
+
+/* CSS for the image */
+#valentine-image {
+    display: none; /* Initially hide the image */
+    max-width: 80%; /* Set max width for responsive behavior */
+    max-height: 70%; /* Set max height for responsive behavior */
+    margin-top: 20px;
+	margin-left: 15%;
+}
+/* V_Day24.css */
+
+/* V_Day24.css */
+
+/* CSS styles for the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    transform: translateY(100%);
+}
+
+footer.visible {
+    transform: translateY(0);
+}
